@@ -1,148 +1,157 @@
 <template>
-
-<section class="skills" id="skills">
-            <div class="title">
-                <h2>{{$t('skills.title') }}</h2>
-                <p>{{$t('skills.subtitle') }}</p>
-            </div>
-            <div class="grid">
-                <div class="columns3 border content">
-                    <h3>{{$t('skills.language') }}</h3>
-                    <ul>
-                        <li>
-                            <span class="icon-bullet "></span>HTML
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>CSS
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Javascript
-                            <div class="data knowlegeable">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>PHP
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>C#
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Typescript
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
+    <section class="skills" id="skills">
+                <div class="title">
+                    <h2>{{$t('skills.title') }}</h2>
+                    <p>{{$t('skills.subtitle') }}</p>
                 </div>
-                <div class="columns3 border content">
-                    <h3>{{$t('skills.framework') }}</h3>
-                    <ul>
-                        <li>
-                            <span class="icon-bullet"></span>ASP.NET
-                            <div class="data medium">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
+                <div class="grid">
+                    <div class="columns3 border content">
+                        <h3>{{$t('skills.language') }}</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet "></span>HTML
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
 
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Vue JS
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>CSS
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
 
-                        </li>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Javascript
+                                <div class="data knowlegeable">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
 
-                    </ul>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>PHP
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>C#
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Typescript
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="columns3 border content">
+                        <h3>{{$t('skills.framework') }}</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet"></span>ASP.NET
+                                <div class="data medium">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Vue JS
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>React JS
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="columns3 border content">
+                        <h3>CMS</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet"></span>Wordpress
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Django
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+
+                            <li>
+                                <span class="icon-bullet"></span>Magento
+                                <div class="data medium">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="columns3 border content">
-                    <h3>CMS</h3>
-                    <ul>
-                        <li>
-                            <span class="icon-bullet"></span>Wordpress
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Django
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-
-                        </li>
-
-                        <li>
-                            <span class="icon-bullet"></span>Magento
-                            <div class="data medium">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            </section>
 </template>
 <script>
 import { useI18n } from 'vue-i18n';
@@ -158,11 +167,11 @@ export default {
 <style scoped>
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot');
-  src:  url('../fonts/icomoon.eot?') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.svg?') format('svg');
+  src:  url('./fonts/icomoon.eot');
+  src:  url('./fonts/icomoon.eot?') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf') format('truetype'),
+    url('./fonts/icomoon.woff') format('woff'),
+    url('./fonts/icomoon.svg?') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
