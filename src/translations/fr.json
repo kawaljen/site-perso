@@ -1,0 +1,26 @@
+{
+    "contact": {
+      "title": "Contactez moi",
+      "subtilte": "Keep in touch",
+      "emailme": "Ecrivez moi",
+      "profil": "Consulter mon profil",
+      "formTitle": "Laissez moi un message !",
+      "textareamsg": "Votre message",
+      "userEmail" : "Votre Email",
+      "userName" : "Votre nom"
+    },
+    "welcome": {
+      "subtitle1": "Je m'appelle Alexandra ",
+      "subtitle2": "Je suis développeuse Web",
+      "comment1": "Je développe des sites créatifs et fonctionnels,",
+      "comment2": "de la communication visuelle au code, avec les nouvelles technos du web",
+      "button": "Contactez moi !"
+    },
+    "skills": {
+      "title": "Mes compétences",
+      "subtitle": "Environnement technique",
+      "language":"Langages",
+      "framework": "Frameworks"
+    }
+  }
+  
