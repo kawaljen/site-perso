@@ -8,67 +8,25 @@
                     <div class="columns3 border content">
                         <h3>{{$t('skills.language') }}</h3>
                         <ul>
-                            <li>
-                                <span class="icon-bullet "></span>HTML
-                                <div class="data expert">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>CSS
-                                <div class="data expert">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>Javascript
-                                <div class="data knowlegeable">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>PHP
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>C#
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>Typescript
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                    <span class="icon-star-empty"></span>
+                            <li
+                            v-for="{ title, nbStarFull, id } in technos"
+                            :id="'listItem_' + id"
+                            :key="title"
+                            >
+                                <span class="icon-bullet"></span>{{title}}
+                                <div class="data">
+                                    <span
+                                        v-for="( index) in nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-full"
+                                        >
+                                    </span>
+                                    <span
+                                        v-for="( index) in 5 - nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-empty"
+                                        >
+                                    </span>
                                 </div>
                             </li>
                         </ul>
@@ -76,77 +34,52 @@
                     <div class="columns3 border content">
                         <h3>{{$t('skills.framework') }}</h3>
                         <ul>
-                            <li>
-                                <span class="icon-bullet"></span>ASP.NET
-                                <div class="data medium">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
+                            <li
+                            v-for="{ title, nbStarFull, id } in frameworks"
+                            :id="'listItem_' + id"
+                            :key="title"
+                            >
+                                <span class="icon-bullet"></span>{{title}}
+                                <div class="data">
+                                    <span
+                                        v-for="( index) in nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-full"
+                                        >
+                                    </span>
+                                    <span
+                                        v-for="( index) in 5 - nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-empty"
+                                        >
+                                    </span>
                                 </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>Vue JS
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                    <span class="icon-star-empty"></span>
-                                </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>React JS
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                    <span class="icon-star-empty"></span>
-                                </div>
-
                             </li>
                         </ul>
                     </div>
                     <div class="columns3 border content">
                         <h3>CMS</h3>
                         <ul>
-                            <li>
-                                <span class="icon-bullet"></span>Wordpress
-                                <div class="data expert">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
+                            <li
+                            v-for="{ title, nbStarFull, id } in cms"
+                            :id="'listItem_' + id"
+                            :key="title"
+                            >
+                                <span class="icon-bullet"></span>{{title}}
+                                <div class="data">
+                                    <span
+                                        v-for="( index) in nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-full"
+                                        >
+                                    </span>
+                                    <span
+                                        v-for="( index) in 5 - nbStarFull"
+                                        :key="title + index"
+                                        class="icon-star-empty"
+                                        >
+                                    </span>
                                 </div>
-
-                            </li>
-                            <li>
-                                <span class="icon-bullet"></span>Django
-                                <div class="data starter">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                    <span class="icon-star-empty"></span>
-                                </div>
-
-                            </li>
-
-                            <li>
-                                <span class="icon-bullet"></span>Magento
-                                <div class="data medium">
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-full"></span>
-                                    <span class="icon-star-empty"></span>
-                                    <span class="icon-star-empty"></span>
-                                </div>
-
                             </li>
                         </ul>
                     </div>
@@ -156,12 +89,39 @@
 <script>
 import { useI18n } from 'vue-i18n';
 
+const technos = [
+  { id: 'HTML', title: 'HTML', nbStarFull: 5 },
+  { id: 'CSS', title: 'CSS', nbStarFull: 5 },
+  { id: 'JS', title: 'Javascript', nbStarFull: 5 },
+  { id: 'PHP', title: 'PHP', nbStarFull: 5 },
+  { id: 'C-sharp', title: 'C#', nbStarFull: 4 },
+  { id: 'TS', title: 'Typescript', nbStarFull: 3 },
+];
+
+const frameworks = [
+  { id: 'ASPNET', title: 'ASP.NET', nbStarFull: 4 },
+  { id: 'Vuejs', title: 'VUE.JS', nbStarFull: 3 },
+  { id: 'React', title: 'React JS', nbStarFull: 3 },
+];
+
+const cms = [
+  { id: 'Wordpress', title: 'Wordpress', nbStarFull: 4 },
+  { id: 'Django', title: 'Django', nbStarFull: 3 },
+  { id: 'Magento', title: 'Magento', nbStarFull: 3 },
+];
+
 export default {
     setup(){
         const { t } = useI18n();
         return { t };
 
-    }
+    },
+    created() {
+        this.frameworks = frameworks;
+        this.technos = technos;
+        this.cms = cms;
+
+    },
 }
 </script>
 <style scoped>
