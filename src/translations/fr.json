@@ -21,6 +21,12 @@
       "subtitle": "Environnement technique",
       "language":"Langages",
       "framework": "Frameworks"
+    },
+    "navbar": {
+      "welcome": "Alexandra Persilié",
+      "skills":"Compétences",
+      "qualification": "Expériences",
+      "contact": "Contactez moi"
     }
   }
   

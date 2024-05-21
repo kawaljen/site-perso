@@ -1,16 +1,16 @@
 <script setup lang="js">
-//import TheWelcome from '../components/TheWelcome.vue'
 import Welcome from '../components/Welcome.vue'
 import Skills from '../components/Skills.vue'
 import Qualification from '../components/Qualification.vue'
 import Contact from '../components/Contact.vue'
-
+import NavBar from '../components/NavBar.vue'
 
 
 </script>
 
 <template>
   <main>
+    <NavBar />
     <Welcome/>
     <Skills/>
     <Qualification/>
