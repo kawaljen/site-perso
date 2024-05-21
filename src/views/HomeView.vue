@@ -2,7 +2,6 @@
 //import TheWelcome from '../components/TheWelcome.vue'
 import Welcome from '../components/Welcome.vue'
 import Skills from '../components/Skills.vue'
-import Portfolio from '../components/Portfolio.vue'
 import Qualification from '../components/Qualification.vue'
 import Contact from '../components/Contact.vue'
 
@@ -14,7 +13,6 @@ import Contact from '../components/Contact.vue'
   <main>
     <Welcome/>
     <Skills/>
-    <Portfolio/>
     <Qualification/>
     <Contact />
   </main>
